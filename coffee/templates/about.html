@@ -1,0 +1,66 @@
+<!-- templates/about.html -->
+{% extends "base.html" %} {% block content %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Our Coffee Shop</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Thêm CSS tùy chỉnh của bạn ở đây */
+      body {
+        background-color: #f8f9fa;
+      }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #343a40;
+      }
+      p {
+        color: #6c757d;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mb-4">About Our Coffee Shop</h1>
+      <p>
+        Welcome to our cozy coffee corner! We are passionate about serving the
+        finest coffee to our community.
+      </p>
+      <p>
+        At our coffee shop, we strive to create an inviting atmosphere where you
+        can relax, socialize, or simply enjoy a moment of solitude with your
+        favorite brew.
+      </p>
+      <p>
+        Our commitment to quality extends beyond our coffee beans. We carefully
+        select our ingredients to ensure that every cup is a delightful
+        experience for your taste buds.
+      </p>
+      <p>
+        Whether you're a devoted coffee connoisseur or just looking for a quick
+        caffeine fix, we have something special brewing just for you.
+      </p>
+      <p>
+        Come join us and savor the rich aroma and bold flavors that define our
+        coffee shop!
+      </p>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+{% endblock %}

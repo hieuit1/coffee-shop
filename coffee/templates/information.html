@@ -1,0 +1,66 @@
+<!-- templates/information.html -->
+{% extends "base.html" %} {% block content %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Information</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Thêm CSS tùy chỉnh của bạn ở đây */
+      body {
+        background-color: #f8f9fa;
+      }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #343a40;
+      }
+      p {
+        color: #6c757d;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      li strong {
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mb-4">Information Page</h1>
+      <p>
+        This is the information page of our coffee shop. Here you can find all
+        the necessary information about our shop, including opening hours,
+        contact details.
+      </p>
+      <ul>
+        <li><strong>Phone:</strong> 0982347193</li>
+        <li><strong>Email:</strong> hieu@gmail.com</li>
+        <li><strong>Facebook:</strong> hieu</li>
+        <li><strong>TikTok:</strong> hieu@13342</li>
+        <li><strong>Telegram:</strong> hieu@134</li>
+      </ul>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+{% endblock %}
